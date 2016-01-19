@@ -63,6 +63,15 @@ If you want to make it read only
 
 > added readonly="readOnly" to rating directive, and $scope.readOnly = true; to the controller.
 
+If you want to customize star icons, you can override custom-star-icon class like below
+
+```CSS
+.custom-star-icon {
+  font-size: 64px;
+  color : red;
+}
+```
+
 **Note:** You may also need to include the style file. But I suggest you just copy it to your
 project.
 
